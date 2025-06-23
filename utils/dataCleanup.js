@@ -1,4 +1,3 @@
-// ✅ Utility script to clean up existing data
 const mongoose = require("mongoose");
 const Report = require("../models/Report");
 const connectDB = require("../db");

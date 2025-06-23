@@ -13,7 +13,7 @@ const app = express();
 // CORS configuration
 app.use(
    cors({
-      origin: "http://localhost:5173", // frontend URL
+      origin: "https://sapadaerah.netlify.app", // frontend URL
       credentials: true, // izinkan cookie terkirim
    })
 );
