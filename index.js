@@ -35,8 +35,8 @@ app.use(
 );
 
 // --- Middleware CSRF untuk routes lainnya ---
-const csrfProtection = csrf({ cookie: true });
-app.use(csrfProtection);
+// const csrfProtection = csrf({ cookie: true });
+// app.use(csrfProtection);
 
 // --- Routes ---
 app.get("/", (req, res) => {
